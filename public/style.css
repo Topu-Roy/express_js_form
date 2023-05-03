@@ -29,3 +29,9 @@ input, button {
     padding-left: 0.2rem 0.5rem;
     width: 100%;
 }
+
+button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: aqua;
+}
