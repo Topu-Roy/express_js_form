@@ -34,7 +34,8 @@ app.get("/", (req, res) => {
 });
 
 app.post("/form", async (req, res) => {
-  await message.create({ name: req.body.name, email: req.body.email });
+  const { name, email } = req.body;
+  await message.create({ name, email });
   res.redirect("/success");
 });
 
