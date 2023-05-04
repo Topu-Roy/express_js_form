@@ -4,9 +4,6 @@ const path = require("path");
 
 const port = 5050;
 
-//* Temporary Database array
-const usersArray = [];
-
 //* Connect to database MongoDB
 mongoose
   .connect("mongodb://127.0.0.1:27017", { dbName: "express-form" })
